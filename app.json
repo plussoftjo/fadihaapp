@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "app",
-    "slug": "app",
+    "name": "Fadiha",
+    "slug": "fadiha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "fadiha",
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/images/splash.png",
@@ -25,7 +25,19 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fadiha.plus",
+      "versionCode": 3,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO",
+        "READ_CONTACTS",
+        "BLUETOOTH",
+        "BLUETOOTH_ADMIN"
+      ]
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
